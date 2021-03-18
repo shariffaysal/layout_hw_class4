@@ -1,0 +1,120 @@
+/* ============= body ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #3B7A57;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 50px 0 0 0;
+}
+
+/*============== top menu ==================*/
+.header{
+    height: 50px;
+    font-size: 20px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #9966CC;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+}
+
+
+
+/*=============== slider ===============*/
+.slider{
+    
+}
+
+/* ============= About ============= */
+.wrapper{
+    overflow: hidden;
+}
+.person{
+    float: left;
+    width: 100px; 
+}
+.blog{
+    float: right;
+    width: 60%;
+}
+
+/* ======= Service ========= */
+.services{
+    text-align: center;
+    color: solid black;
+}
+
+.services img{
+    width: 50px;
+}
+.service{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 70px;
+    background-color: #9966CC;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card h3,img,p{
+    margin: 10px 0;
+}
+
+/* ========== portfolio ============= */
+
+.portfolio div{
+    display: flex;
+    justify-content: center;
+}
+
+.portf{
+    float: left;
+    margin: 0 30px;
+    
+}
+
+.portf img{
+    width: 300px;
+}
+
+.footer{
+    background-color: black;
+    height: 100px;
+}
+.h3{
+    color:#126180;
+}

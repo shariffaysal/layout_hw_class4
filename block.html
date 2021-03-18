@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML Tag Practice</title>
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+		<base href="https://www.facebook.com/sfoysal75" target="blank">
+	<style>table,th,td{
+		border:2px solid black ;
+	}
+
+		.myDiv{
+			border:5px outset red;
+			background-color:lightblue;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+
+
+	<h1 style="color: green;">#HTML Element Tags Practice List#</h1>
+
+
+	<h1>1.The a element:</h1>
+	<a href="https://www.facebook.com/sfoysal75/"> Sharif Foysal Facebook Profile</a>
+
+
+	<h1>2.The address element:</h1>
+	<address>Written by <a href="https://www.facebook.com/sfoysal75/">Sharif Foysal</a>.<br> Visit us at:<br> Example.com<br> Box 564, Disneyland<br> BD
+	</address>
+
+
+
+	<h1>3.The Map and area elements:</h1>
+	<p>lick on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+	<img src="05.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+
+
+
+	<h1>4.The article element:</h1>
+	<article>
+		<h2>Google Chrome </h2>
+		<p>Google chrome is a web browser developed by Google, released in 2008. Chrome is the word's most popular web broeser today!</p>
+	</article>
+	<article>
+		<h2>Mozilla Firefox </h2>
+		<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January,2018</p>
+	</article>
+	<article>
+		<h2>Microsoft Edge</h2>
+		<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge Replaced Internet Explorer.</p>
+	</article>
+
+
+
+
+	<h1>5.The aside element:</h1>
+	<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+	<aside>
+		<h3>Epcot Center</h3>
+		<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</aside>
+
+
+
+
+	<h1>6.The audio element: #Problem#</h1>
+	<p>Click on the play button to play a sound:</p>
+	<audio controls>
+		<source src="#"type="audio/ogg">
+		<source src="#" type="audio/ogg">
+			Your browser does not support the audio element.
+	</audio>
+
+    
+
+
+    <h1>7.The b element</h1>
+   	<p>this is normal text - <b>and this is bold text</b>.</p>
+
+
+
+
+   	<h1>8.The base element:#Img Problem#</h1>
+   	<img src="images/stckman1.gif" width="24" height="39" alt="stickman">
+
+
+   	<h1>9.The bdi element:</h1>
+   	<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+   	<ul>
+   		<li>User <bdi>hrefs</bdi>:60 points</li>
+   		<li>User <bdi>jdoe</bdi>: 80 points</li>
+   		<li>User <bdi>إيان</bdi>: 90 points</li>
+   	</ul>
+
+
+
+
+    <h1>10.The blockquote element:</h1>
+    <p>Here is a quote from Sharif Foysal id:</p>
+    <blockquote cite="https://www.facebook.com/sfoysal75">
+    	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+
+
+    <h1>11.The br element: #Important#</h1>
+    <p>To force<br>Line breads<br>In a text, <br>Use the br <br> Element.</p>
+
+
+
+    <h1>12.The button Element:#Important#</h1>
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+
+
+    <h1>13.The canvas element:</h1>
+    <canvas id="myCanvas"> Your browser not support the canvas tag.</canvas>
+    <script>
+    	var c = document.getElementById("myCanvas");
+    	var ctx = c.getContext("2d");
+    	ctx.fillStyle = "#FF0000";
+    	ctx.fillRect(0,0,80,100);
+    </script>
+
+
+
+
+
+    <h1>14.The caption element:#Important#</h1>
+    <table>
+    	<caption>Monthly savings</caption>
+    	<tr>
+    		<th>Month</th>
+    		<th>Sabings</th>
+    	</tr>
+    	<tr>
+    		<td>January</td>
+    		<td>$1000</td>
+    	</tr>
+    	<tr>
+    		<td>February</td>
+    		<td>$5000</td>
+    	</tr>
+    </table>
+
+
+
+
+
+
+    <h1>15.The cite element:</h1>
+    <img src="images/02.jpg" width="500" height="#" alt="the Scream">
+    <p><cite>The Scream</cite>by Edward Munch. Painted in 1893.</p> 
+
+
+
+
+
+    <h1>16.The code element:</h1>
+    <p>The CSS <code>background-code</code>property defines the background color of an element.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+
+
+
+
+    <h1>17.The col element:#Importent#</h1>
+    <table>
+  		<colgroup>
+    		<col span="2" style="background-color:red">
+    		<col style="background-color:yellow">
+  		</colgroup>
+  		<tr>
+    		<th>ISBN</th>
+    		<th>Title</th>
+    		<th>Price</th>
+  		</tr>
+  		<tr>
+    		<td>3476896</td> 
+    		<td>My first HTML</td>
+    		<td>$53</td>
+  		</tr>
+  		<tr>
+    		<td>5869207</td>
+    		<td>My first CSS</td>
+    		<td>$49</td>
+  		</tr>
+	</table>
+
+
+
+	<h1>18.The data element:</h1>
+	<p>The following example displays product names but also associates each name with a product number:</p>
+	<ul>
+		<li><data value="21053">Cherry Tomato</data></li>
+		<li><data value="21054">beef Tomato</data></li>
+		<li><data value="21055">Snack Tomato</data></li>
+	</ul>
+
+
+
+
+	<h1>19.The datalist element:</h1>
+	<form action="/action_page.php" method="get">
+ 		<label for="browser">Choose your browser from the list:</label>
+  		<input list="browsers" name="browser" id="browser">
+  		<datalist id="browsers">
+    		 <option value="Edge">
+    		 <option value="Firefox">
+    		 <option value="Chrome">
+   			 <option value="Opera">
+   			 <option value="Safari">
+ 		 </datalist>
+ 	    <input type="submit">
+	</form>
+	<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+
+
+
+
+	<h1>20.The dl, dd, and dt elements:</h1>
+	<p>These three elements are used to create a description list:</p>
+	<dl>
+		<dt>Coffee</dt>
+		<dd>Black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>White cold drink</dd>
+	</dl>
+
+
+
+
+	<h1>21.The del element:</h1>
+	<p>My favorite color is <del>blue</del><ins>red</ins></p>
+
+
+
+
+
+	<h1>22.The details element:#Important#</h1>
+	<details>
+		<summary>Epcot Center</summary>
+		<p>Epcot is a theme park at Walt Disney World ??Resort featurin exciting attractions,international pavilions,award-winning fireworks and seasonal special events.</p>
+	</details>
+
+
+
+
+	<h1>23.The dfn element:</h1>
+	<p><dfn>HTML</dfn>is the standard markup language for creating web pages.</p><o>
+
+
+
+
+
+	<h1>24.The dialog element</h1>
+	<p>This is some text.</p>
+	<p>This is some text.</p>
+	<dialog open>This is an open dialog window</dialog>
+	<p>This is some text.</p>
+	<p>This is some text.</p>
+	<p><b>Note:</b>The dialog tag is not supported in Safari and Edge(prior version79).</p>
+
+
+
+
+
+
+	<h1>25.The div element####Most Important###</h1>
+	<div class="myDiv">
+		<h2>this is a heading in a div elenent.</h2>
+		<p>This is some text in a div element.</p>
+	</div>
+	<p>This is some text outside the div element.</p>
+
+
+
+
+	<h1>26.The embed element.#Problem#</h1>
+	<embed type="image/jpg" src="images/world.jpg" alt="picture">
+
+
+
+
+	<embed type="video/webm" src="video/coco.mp4" width="400" height="300">
+
+
+
+
+
+	<h1>27.The fieldset element:#Important#</h1>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Personalia:</legend>
+   			<label for="fname">First name:</label>
+  			<input type="text" id="fname" name="fname"><br><br>
+  			<label for="lname">Last name:</label>
+ 		    <input type="text" id="lname" name="lname"><br><br>
+  			<label for="email">Email:</label>
+  			<input type="email" id="email" name="email"><br><br>
+  			<label for="birthday">Birthday:</label>
+ 		    <input type="date" id="birthday" name="birthday"><br><br>
+  			<input type="submit" value="Submit">
+ 		</fieldset>
+	</form>
+
+
+
+	<h1>28.The footer element:</h1>
+
+	<footer>
+  		<p>Author: Hege Refsnes<br>
+  		<a href="https://www.facebook.com/sfoysal075">Sharif Foysal FBP</a></p>
+	</footer>
+
+
+
+
+	<h1>28.The form element:</h1>
+
+	<form action="/action_page.php">
+  		<label for="fname">First name:</label>
+  		<input type="text" id="fname" name="fname"><br><br>
+  		<label for="lname">Last name:</label>
+  		<input type="text" id="lname" name="lname"><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+	<p>Click the "Submit" button and the form-data will be sent to a page on the server called "action_page.php".</p>
+
+
+
+
+
+	<h1>29.This is heading 1to6 element:</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+	<h5>This is heading 5</h5>
+	<h6>This is heading 6</h6>
+
+		<p><b>Tip:</b> Use h1 to h6 elements only for headings. Do not use them just to make text bold or big. Use other tags for that.</p>
+
+
+
+
+	<h1>30.The form header element:</h1>
+	<article>
+        <header>
+    		<h1>A heading here</h1>
+    		<p>Posted by John Doe</p>
+    		<p>Some additional information here</p>
+  		</header>
+  			<p>Lorem Ipsum dolor set amet....</p>
+	</article>
+
+
+
+	<h1>31.The form hr element:#Most important# </h1>
+		<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+	<hr>
+
+		<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+	<hr>
+
+		<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+
+
+	<h1>32.The i element:</h1>
+		<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+	<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+
+
+
+	<h1>32.The iframe element:#Most Important####Problem####</h1>
+		<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+	<h1>The iframe element + CSS</h1>
+
+		<p>An iframe with default borders:</p>
+	<iframe src="/default.asp" width="100%" height="300">
+	</iframe>
+
+		<p>An iframe with a thin black border:</p>
+	<iframe src="/default.asp" width="100%" height="300" style="border:1px solid black;">
+	</iframe>
+
+		<p>An iframe with no borders:</p>
+	<iframe src="/default.asp" width="100%" height="300" style="border:none;">
+	</iframe>
+
+
+
+
+
+
+	<h1>33.The img element"</h1>
+
+	<img src="images/01.jpg" alt="images" width="500" height="600">
+
+
+
+
+
+	<h1>34.The input element:</h1>
+
+	<form action="/action_page.php">
+  		<label for="fname">First name:</label>
+  		<input type="text" id="fname" name="fname"><br><br>
+  		<label for="lname">Last name:</label>
+  		<input type="text" id="lname" name="lname"><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+		<p>Click the "Submit" button and the form-data will be sent to a page on the server called "action_page.php".</p>
+
+
+
+
+
+
+	<h1>35.The kbd element:</h1>
+
+		<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+		<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+
+
+
+
+	<h1>36.The label element:</h1>
+
+		<p>Click on one of the text labels to toggle the related radio button:</p>
+
+	<form action="/action_page.php">
+  		<label for="male">Male</label>
+  		<input type="radio" name="gender" id="male" value="male"><br>
+  		<label for="female">Female</label>
+  		<input type="radio" name="gender" id="female" value="female"><br>
+  		<label for="other">Other</label>
+  		<input type="radio" name="gender" id="other" value="other"><br><br>
+ 	    <input type="submit" value="Submit">
+    </form>	
+
+
+
+
+
+    <h1>37.The legend element:</h1>
+
+	<form action="/action_page.php">
+ 		<fieldset>
+  			<legend>Personalia:</legend>
+  			<label for="fname">First name:</label>
+  			<input type="text" id="fname" name="fname"><br><br>
+  			<label for="lname">Last name:</label>
+  			<input type="text" id="lname" name="lname"><br><br>
+  			<label for="email">Email:</label>
+  			<input type="email" id="email" name="email"><br><br>
+  			<label for="birthday">Birthday:</label>
+  			<input type="date" id="birthday" name="birthday"><br><br>
+  			<input type="submit" value="Submit">
+ 		</fieldset>
+	</form>
+
+
+
+
+
+	<h1>38.The ol and ul elements:</h1>
+
+		<p>The ol element defines an ordered list:</p>
+	<ol>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ol>
+
+		<p>The ul element defines an unordered list:</p>
+	<ul>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ul>
+
+
+
+
+	<h1>39.The link elements:#####Problem####</h1>
+	<h2>Hello World!</h2>
+	<h2>I am formatted with a linked style sheet.</h2>
+	<p>Me too!</p>
+
+
+
+
+	<h1>40.The main element:#Important#</h1>
+
+	<main>
+  			<h2>Most Popular Browsers</h2>
+  				<p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  		<article>
+    		<h2>Google Chrome</h2>
+    		<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  		</article>
+
+  		<article>
+    		<h2>Mozilla Firefox</h2>
+    			<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  		</article>
+
+  		<article>
+   			 <h2>Microsoft Edge</h2>
+    			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  		</article>
+	</main>
+
+
+
+
+
+
+	<h1>41.The map and area elements:</h1>
+
+		<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+	<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+	<map name="workmap">
+  		<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  		<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  		<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+	</map>
+
+
+
+
+	<h1>42.The mark element:###Important###</h1>
+		<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+
+
+
+
+	<h1>43.The meter element:###Important###</h1>
+
+			<p>The meter element is used to display a gauge:</p>
+
+		<label for="disk_c">Disk usage C:</label>
+		<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+		<label for="disk_d">Disk usage D:</label>
+		<meter id="disk_d" value="0.6">60%</meter>
+
+			<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+
+
+
+
+	<h1>44.The nav element:</h1>
+
+		<p>The nav element defines a set of navigation links:</p>
+
+	<nav>
+		<a href="/html/">HTML</a> |
+		<a href="/css/">CSS</a> |
+		<a href="/js/">JavaScript</a> |
+		<a href="/python/">Python</a>
+	</nav>
+
+
+
+
+
+
+	<h1>45.The ol element:</h1>
+
+	<ol>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ol>
+
+	<ol start="50">
+ 		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ol>
+
+
+
+
+
+	<h1>46.The optgroup element:</h1>
+
+			<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+	<form action="/action_page.php">
+  		<label for="cars">Choose a car:</label>
+  		<select name="cars" id="cars">
+    		<optgroup label="Swedish Cars">
+      			<option value="volvo">Volvo</option>
+      			<option value="saab">Saab</option>
+    		</optgroup>
+   		 	<optgroup label="German Cars">
+     		 	<option value="mercedes">Mercedes</option>
+      			<option value="audi">Audi</option>
+    		</optgroup>
+  		</select>
+  		<br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+
+
+
+
+	<h1>47.The option element:</h1>
+
+		<label for="cars">Choose a car:</label>
+
+		<select id="cars">
+ 			 <option value="volvo">Volvo</option>
+  			 <option value="saab">Saab</option>
+  			 <option value="opel">Opel</option>
+ 			 <option value="audi">Audi</option>
+		</select>
+
+
+
+
+	<h1>48.The output element:###Important###</h1>
+
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			<input type="range" id="a" value="50">
+			+<input type="number" id="b" value="25">
+			=<output name="x" for="a b"></output>
+		</form>
+
+			<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+
+
+
+	<h1>49.The pre element:</h1>
+
+	<pre>
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks
+	</pre>
+
+
+
+
+
+	<h1>50.The progress element:</h1>
+
+		<label for="file">Downloading progress:</label>
+		<progress id="file" value="32" max="100"> 32% </progress>
+
+
+
+
+
+	<h1>51.The q element:</h1>
+
+		<p>WWF's goal is to: 
+		<q>Build a future where people live in harmony with nature.</q>
+		We hope they succeed.</p>
+
+
+
+
+
+	<h1>52.The s element:</h1>
+		<p><s>Only 50 tickets left!</s></p>
+		<p>SOLD OUT!</p>
+
+
+
+
+
+
+
+	<h1>53.The samp element:</h1>
+		<p>Message from my computer:</p>
+		<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+
+
+
+
+
+	<h1>54.The strong element:</h1>
+		<p>This text is normal.</p>
+		<p><strong>This text is important!</strong></p>
+
+
+
+
+
+
+	<h1>55.The sub and sup elements:</h1>
+		<p>This text contains <sub>subscript</sub> text.</p>
+		<p>This text contains <sup>superscript</sup> text.</p>
+
+
+
+
+
+
+	<h1>56.The svg element:</h1>
+		<svg width="100" height="100">
+  			<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  			Sorry, your browser does not support inline SVG.
+		</svg>
+
+
+
+
+
+
+
+	<h1>57.The table element:</h1>
+
+	<table>
+ 		 <tr>
+   			 <th>Month</th>
+    		<th>Savings</th>
+  		</tr>
+  		<tr>
+   			 <td>January</td>
+    		<td>$100</td>
+  		</tr>
+  		<tr>
+   			 <td>February</td>
+    		<td>$80</td>
+  		</tr>
+	</table>
+
+
+
+
+
+
+
+	<h1>*Choose a Domain Name:*</h1>
+	
+		<p class="itly">In order to build a website, the very first thing you’ll need is a domain name.The domain name is your website name and address. That address is used by visitors when they try to find your site through their web browsers.This website’s domain name is websitesetup.org. Yours can be anything.Domain names can cost anywhere from $10 to $50 a year. The usual price tag is around $15.If you haven’t registered or chosen a domain name for your website, here are some tips to help you out:</p>
+
+	<a href="https://www.facebook.com/sfoysal75/">Sharif Foysal</a>
+
+		<p>Whether you want to create a <abbr title="#"> website for yourself </abbr> or for your business, you can easily do that by using the right tools and resources.</p>
+
+</body>
+</html> 
